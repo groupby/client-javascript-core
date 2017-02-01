@@ -1,0 +1,53 @@
+{
+  "name": "groupby-client-core",
+  "version": "0.0.0-development",
+  "description": "Core library for creating GroupBy JavaScript libraries",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": "https://github.com/groupby/client-javascript-core",
+  "author": "Ben Teichman",
+  "scripts": {
+    "start": "start-runner -f tasks.js",
+    "prepush": "yarn start prepush",
+    "prepublish": "yarn start build",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/dot-prop": "^0.0.30",
+    "@types/mocha": "^2.2.38",
+    "babel-preset-start": "^0.1.0",
+    "chai": "^3.5.0",
+    "condition-circle": "^1.5.0",
+    "husky": "^0.13.0",
+    "mocha": "^3.2.0",
+    "re-start": "^1.1.0",
+    "semantic-release": "^6.3.2",
+    "semistandard": "^9.2.1",
+    "start": "^5.1.0",
+    "start-babel-cli": "^4.0.1",
+    "start-clean": "^2.0.0",
+    "start-concurrent": "^0.1.0",
+    "start-env": "^3.0.0",
+    "start-files": "^2.0.0",
+    "start-input-connector": "^0.2.0",
+    "start-mocha": "^3.0.0",
+    "start-pretty-reporter": "^0.3.0",
+    "start-read": "^0.3.0",
+    "start-release": "^1.2.0",
+    "start-split": "^1.0.0",
+    "start-typescript": "^1.0.2",
+    "start-watch": "^2.0.0",
+    "start-write": "^2.0.0",
+    "tslint-config-groupby": "^1.0.0",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "dot-prop": "^4.1.0",
+    "theon": "^0.1.28"
+  }
+}
