@@ -1,2 +1,2 @@
-# client-javascript
-JavaScript client for all GroupBy services
+# client-javascript-core
+Core library for all GroupBy JavaScript clients

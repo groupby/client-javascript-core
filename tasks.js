@@ -17,10 +17,11 @@ const testCompileOpts = { compilerOptions: { sourceMap: false, declaration: fals
 
 const commands = module.exports = restart(start, {
   srcFiles: 'src/index.ts',
+  watchFiles: 'src/**/*.ts',
+  coverageFiles: '.scratch/src/**/*.js',
   outDir: 'dist/',
   compile: typescript,
-  lint: () => () => Promise.resolve(),
-  report: () => () => Promise.resolve()
+  lint: () => () => Promise.resolve()
 });
 
 commands.test = () => start(
