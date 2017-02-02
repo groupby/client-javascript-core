@@ -4,6 +4,9 @@
   "description": "Core library for creating GroupBy JavaScript libraries",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "repository": "https://github.com/groupby/client-javascript-core",
   "author": "Ben Teichman",
   "scripts": {
