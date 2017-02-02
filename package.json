@@ -26,7 +26,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^3.4.34",
-    "@types/dot-prop": "^0.0.30",
     "@types/mocha": "^2.2.38",
     "@types/sinon": "^1.16.34",
     "babel-preset-start": "^0.1.0",
