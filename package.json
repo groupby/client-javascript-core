@@ -33,7 +33,7 @@
     "cz-conventional-changelog": "^1.2.0",
     "husky": "^0.13.0",
     "mocha": "^3.2.0",
-    "re-start": "^1.7.4",
+    "re-start": "^1.8.1",
     "sinon": "^1.17.7",
     "start-babel-cli": "^4.0.1",
     "tslint-config-groupby": "^1.0.0"
